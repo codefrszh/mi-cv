@@ -1,52 +1,49 @@
-#nombre{
-    background-color: red;
-    border: black solid;
-}
+/*Comentarios en CSS*/
 
-body{
-    background-color: grey;
-}
-
+/*Selectro de Etiqueta*/
 
 header{
     text-align: center;
-    
+    ;
 }
 
-#informacion{
+body{
+    font-family: 'Madimi One', sans-serif; /*Tipografia*/
+    background-color:rgb(red,green,blue)
+    }
+
+footer{
     text-align: center;
+    background-color: red;
+    color: blue;
 }
 
-header nav ul{
-    list-style-type: none;
-
+    /*Selectro de ID*/
+#perfil{
+    width: 200px;
+    height: 150px;
 }
 
 h2{
-    background-color: red;
-    border:5px black solid;
-    text-align: center;
+    color: red;
+    background-color: black;
+    
 }
 
-h3{
-    background-color: orange;
-    border: 3px black solid;
+/*Selector avanzado*/
+
+header nav ul{
+    background-color:black;
+    list-style-type:none;
 }
 
-p{
-    text-align: left;
+nav ul li a{
+    color: red;
+    text-decoration: none;
 }
 
-.profile-description{
-    text-align: center;
-    background-color: orange;
-}
-
-.image-profile{
-    border:5px orange solid;
-}
-
-.skills{
-    border: 2px orange solid;
-    padding-top: 2px;
+.titulo{
+    background-color: black;
+    padding: 10px;
+    border: 5px red solid;
 }
